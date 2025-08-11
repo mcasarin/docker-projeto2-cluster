@@ -17,8 +17,8 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/hashi
 sudo apt update && sudo apt install vagrant
 ```
 ### Imagem utilizada: Fedora Cloud Base 42 LTS.
-Docker Image TAG fedora:42
-https://github.com/fedora-cloud/docker-brew-fedora.git
+Vagrant Image TAG gnome-shell-box/fedora42
+https://portal.cloud.hashicorp.com/vagrant/discover/gnome-shell-box/fedora42
 
 Disponível imagem pronta para VirtualBox
 https://download.fedoraproject.org/pub/fedora/linux/releases/42/Cloud/x86_64/images/Fedora-Cloud-Base-Vagrant-VirtualBox-42-1.1.x86_64.vagrant.virtualbox.box
