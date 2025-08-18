@@ -28,3 +28,7 @@ https://portal.cloud.hashicorp.com/vagrant/discover/bento/ubuntu-22.04
 ### Imagem com testes em andamento e mais leve
 Vagrant Image TAG bento/fedora-42
 https://portal.cloud.hashicorp.com/vagrant/discover/bento/fedora-42
+
+<img width="959" height="660" alt="VirtualBox com hosts em execução" src="https://github.com/user-attachments/assets/156213e7-6c6e-4465-a465-1bee1eb76e12" />
+
+<img width="1868" height="1023" alt="Hosts em cluster com apache e load da máquina hospedeira" src="https://github.com/user-attachments/assets/b6dda4be-44ee-443c-babf-a66dead49551" />
