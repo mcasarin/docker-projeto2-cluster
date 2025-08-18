@@ -19,9 +19,12 @@ wget -O - https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/sh
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(grep -oP '(?<=UBUNTU_CODENAME=).*' /etc/os-release || lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
 sudo apt update && sudo apt install vagrant
 ```
-### Imagem utilizada: Fedora Cloud Base 42 LTS.
-Vagrant Image TAG gnome-shell-box/fedora42
-https://portal.cloud.hashicorp.com/vagrant/discover/gnome-shell-box/fedora42
+O arquivo worker.sh é preenchido durante a execução e está com conteúdo somente para efeitos de demonstração.
 
-Disponível imagem pronta para VirtualBox
-https://download.fedoraproject.org/pub/fedora/linux/releases/42/Cloud/x86_64/images/Fedora-Cloud-Base-Vagrant-VirtualBox-42-1.1.x86_64.vagrant.virtualbox.box
+### Imagem utilizada: Ubuntu Jammy 22.04 LTS
+Vagrant Image TAG bento/ubuntu-22.04
+https://portal.cloud.hashicorp.com/vagrant/discover/bento/ubuntu-22.04
+
+### Imagem com testes em andamento e mais leve
+Vagrant Image TAG bento/fedora-42
+https://portal.cloud.hashicorp.com/vagrant/discover/bento/fedora-42
